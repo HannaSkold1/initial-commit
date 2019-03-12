@@ -1,12 +1,9 @@
-button {
-    background-color: yellow;
-  }
 body {
-    display: flex;
-    flex-direction: column;
-    jusify-content: center;
-    align-items: center;
-    margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
 }
 
 h1 {
@@ -33,4 +30,12 @@ input {
 
 .addOption {
   margin-top: 10px;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
